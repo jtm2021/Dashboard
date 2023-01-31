@@ -2,3 +2,38 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "sidebar header header header header"
+    "sidebar projects projects projects announcements"
+    "sidebar projects projects projects announcements"
+    "sidebar projects projects projects announcements"
+    "sidebar projects projects projects trending";
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(36, 36, 220);
+    height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(36, 220, 122);
+}
+
+.projects {
+    grid-area: projects;
+    background-color: rgb(220, 36, 36);
+}
+
+.announcements {
+    grid-area: announcements;
+    background-color: rgb(220, 220, 36);
+}
+
+.trending {
+    grid-area: trending;
+}
