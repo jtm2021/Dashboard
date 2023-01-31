@@ -19,5 +19,5 @@ An assignment to showcase knowledge on using CSS Grid. It is part of Brainnest A
 ---
     1. Jesson Mangilisan
     2. Valter Carvalho
-    3. Oluwagbemi
+    3. Oluwagbemi Oluwasakin
 
