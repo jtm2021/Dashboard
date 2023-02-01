@@ -123,6 +123,7 @@ li {
     justify-content: center;
     height: 100vh;
     text-align: center;
+    background-color: #f2f2f2;
 }
 
 .landing img {
