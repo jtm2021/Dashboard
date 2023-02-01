@@ -109,3 +109,24 @@ li {
 }
 
 /* LANDING PAGE -------------------------------------------------------------------*/
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.landing img {
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+}
+
+.sorry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
