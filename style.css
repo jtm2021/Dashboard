@@ -26,6 +26,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin: 20px 0px;
 }
 
 .dashboard img {
@@ -77,7 +78,11 @@ li {
     list-style: none;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin: 10px 0;
+}
+
+.settings {
+    margin: 50px 0 10px;
 }
 
 /* HEADER -------------------------------------------------------------------*/
