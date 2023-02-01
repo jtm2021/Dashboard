@@ -12,6 +12,7 @@ An assignment to showcase knowledge on using CSS Grid. It is part of Brainnest A
 
 ## Images
 ---
+The icons used in the project were taken from [Material Design Icons](https://materialdesignicons.com/)
 
 ## Deployment
 
