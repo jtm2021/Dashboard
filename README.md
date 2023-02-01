@@ -10,7 +10,7 @@ An assignment to showcase knowledge on using CSS Grid. It is part of Brainnest A
 ## Color Scheme
 ---
 The colors used in the project is based on dark blue yellow color palette. They were taken from [color-hex](https://www.color-hex.com/color-palette/83349). The colors are as follows:
-![Color Palette](./assets/readme-images/color-palette.png)
+- ![Color Palette](./assets/readme-images/color-palette.png)
 
 ## Images
 ---
