@@ -15,15 +15,43 @@ body {
 
 .sidebar {
     grid-area: sidebar;
-    background-color: rgb(36, 36, 220);
+    background-color: #2946d7;
     height: 100vh;
     color: #fff;
+    padding-left: 2rem;
 }
 
-.sidebar img {
+.dashboard {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dashboard img {
     width: 30px;
     height: 30px;
     filter: invert(99%) sepia(100%) saturate(1%) hue-rotate(254deg) brightness(107%) contrast(100%);
+}
+
+.dashboard h1 {
+    font-size: 1.5rem;
+}
+
+.dashboard-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5px;
+}
+
+.dashboard-menu img {
+    width: 20px;
+    height: 20px;
+    filter: invert(99%) sepia(100%) saturate(1%) hue-rotate(254deg) brightness(107%) contrast(100%);
+}
+
+.dashboard-menu h1 {
+    font-size: 1rem;
 }
 
 /* img {
