@@ -23,7 +23,7 @@ body {
     "sidebar projects projects projects announcements"
     "sidebar projects projects projects announcements"
     "sidebar projects projects projects trending";
-     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  */
+     grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr; 
       /* this can adjust the size of each grid */
 }
 
