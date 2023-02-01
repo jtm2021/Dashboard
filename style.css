@@ -1,3 +1,13 @@
+@import url("./styles/header.css");
+
+:root {
+  --color-white: #FFFFFF; 
+  --color-blue: #FFC000;
+  --color-gray: #F2F2F2;
+  --color-dark: #262626;
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -11,7 +21,8 @@ body {
     "sidebar projects projects projects announcements"
     "sidebar projects projects projects announcements"
     "sidebar projects projects projects trending";
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */ /*this can adjust the size of eacg grid*/
+     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  */
+      /* this can adjust the size of eacg grid */
 }
 
 .sidebar {
@@ -85,27 +96,23 @@ li {
     margin: 50px 0 10px;
 }
 
-/* HEADER -------------------------------------------------------------------*/
-.header {
-    grid-area: header;
-    background-color: rgb(36, 220, 122);
-}
 
 /* PROJECTS -------------------------------------------------------------------*/
 .projects {
     grid-area: projects;
-    background-color: rgb(220, 36, 36);
+    background-color: var(--color-gray);
 }
 
 /* ANNOUNCEMENTS -------------------------------------------------------------------*/
 .announcements {
     grid-area: announcements;
-    background-color: rgb(220, 220, 36);
+    background-color: var(--color-gray);
 }
 
 /* TRENDING -------------------------------------------------------------------*/
 .trending {
     grid-area: trending;
+    background-color: var(--color-gray);
 }
 
 /* LANDING PAGE -------------------------------------------------------------------*/
