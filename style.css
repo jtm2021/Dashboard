@@ -65,12 +65,15 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
 a {
     display: flex;
     align-items: center;
     gap: 10px;
     padding-left: 5px;
     text-decoration: none;
+    border: 1px solid white;
+    width: fit-content;
 }
 
 nav img {
@@ -84,7 +87,6 @@ a p{
     color: #fff;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    
 }
 
 li {
