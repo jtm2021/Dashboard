@@ -19,6 +19,8 @@ The colors used in the project is based on dark blue yellow color palette. They 
 
 The icons used in the project were taken from [Material Design Icons](https://materialdesignicons.com/)
 
+Other images were taken from [Pexels](https://www.pexels.com/)
+
 ## Deployment
 
 ## Contributors
