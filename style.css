@@ -3,9 +3,10 @@
 
 :root {
   --color-white: #FFFFFF; 
-  --color-blue: #FFC000;
+  --color-yellow: #FFC000;
   --color-gray: #F2F2F2;
   --color-dark: #262626;
+  --color-blue: #2946d7;
 }
 
 
@@ -29,9 +30,9 @@ body {
 
 .sidebar {
     grid-area: sidebar;
-    background-color: #2946d7;
+    background-color: var(--color-blue);
     height: 100vh;
-    color: #fff;
+    color: var(--color-white);
     padding-left: 2rem;
 }
 
