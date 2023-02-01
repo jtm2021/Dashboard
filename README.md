@@ -4,6 +4,15 @@ An assignment to showcase knowledge on using CSS Grid. It is part of Brainnest A
 The live site can be found [here](https://jtm2021.github.io/Dashboard/).
 
 ## Wireframe
+The wireframe for the project was made using [Figma](https://www.figma.com/).
+<details><summary>Click To See Wireframe</summary>
+
+### Homepage
+![Website Homepage Wireframe](./assets/readme-images/wireframe.svg "Dashboard Homepage")
+### Landing
+![Website Landing Page Wireframe](./assets/readme-images/landing.svg "Landing Page")
+
+</details>
 
 
 ## Typography
