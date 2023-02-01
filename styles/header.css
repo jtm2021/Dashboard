@@ -29,7 +29,6 @@ img {
   padding-bottom: 5px 5px;
   padding: .5em 2em;
 }
-
 .head-area-top-left {
   display: flex;
   width: 60%;
@@ -72,7 +71,6 @@ img {
   width: 55px;
   margin-right: 1.5em;
 }
-
 img + div {
   width: 80%;
   display: flex;
@@ -80,7 +78,6 @@ img + div {
   align-items: start;
   justify-content: center;
 }
-
 .messages {
   width: 80%;
 } 
