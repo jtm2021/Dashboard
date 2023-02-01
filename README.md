@@ -1,6 +1,8 @@
 # Dashboard
 An assignment to showcase knowledge on using CSS Grid. It is part of Brainnest Advanced Front-End Training Program.
 
+The live site can be found [here](https://jtm2021.github.io/Dashboard/).
+
 ## Wireframe
 
 
