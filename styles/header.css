@@ -93,13 +93,13 @@ img + div {
 @media screen and (max-width: 800px) {
 
   .header {
-    padding: 2px 2px;
+    padding: 15px;
     flex-direction: column;
     flex-wrap: nowrap;
   }
   .header > div {
     width: 100%;
-    /* height: 25%; */
+    padding: 0.5rem;;
   }  
 
   .profile_img_lg {
@@ -119,6 +119,11 @@ img + div {
 
   .head-area-top-right{
     display: none;
+  }
+
+  .grettins-user {
+    font-size: 1rem;
+    font-weight: 600;
   }
 
 
