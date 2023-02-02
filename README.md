@@ -3,6 +3,8 @@ An assignment to showcase knowledge on using CSS Grid. It is part of Brainnest A
 
 The live site can be found [here](https://jtm2021.github.io/Dashboard/).
 
+The source code can be  found [here](https://github.com/jtm2021/Dashboard/).
+
 ## Wireframe
 The wireframe for the project was made using [Figma](https://www.figma.com/).
 <details><summary>Click To See Wireframe</summary>
@@ -37,4 +39,3 @@ Other images were taken from [Pexels](https://www.pexels.com/)
     1. Jesson Mangilisan
     2. Valter Carvalho
     3. Oluwagbemi Oluwasakin
-

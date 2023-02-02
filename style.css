@@ -4,9 +4,10 @@
 :root {
   --color-white: #FFFFFF; 
   --color-yellow: #FFC000;
-  --color-gray: #F2F2F2;
-  --color-dark: #262626;
   --color-blue: #2946d7;
+  --color-gray: #F2F2F2;
+  --color-gborder: #333333;
+  --color-gray-dark: #555555;
 }
 
 
