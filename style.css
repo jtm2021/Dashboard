@@ -220,7 +220,7 @@ li {
     display: flex;
     flex-direction: column;
     padding: 10px 0;
-    align-self: stretch;
+    align-self: start;
 }
 
 .user-profiles img {
