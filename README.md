@@ -3,8 +3,6 @@ An assignment to showcase knowledge on using CSS Grid. It is part of Brainnest A
 
 The live site can be found [here](https://jtm2021.github.io/Dashboard/).
 
-The source code can be  found [here](https://github.com/jtm2021/Dashboard/).
-
 ## Wireframe
 The wireframe for the project was made using [Figma](https://www.figma.com/).
 <details><summary>Click To See Wireframe</summary>
@@ -18,7 +16,7 @@ The wireframe for the project was made using [Figma](https://www.figma.com/).
 
 
 ## Typography
-
+The project used fron Inder from [Google Fonts](https://fonts.google.com/).
 
 ## Color Scheme
 
