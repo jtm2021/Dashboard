@@ -31,9 +31,9 @@ body {
 
 .sidebar {
     grid-area: sidebar;
-    background-color: #2946d7;
+    background-color: var(--color-blue);
     height: 100vh;
-    color: #fff;
+    color: var(--color-white);
     padding-left: 2rem;
 }
 
@@ -135,7 +135,7 @@ li {
     width: 80%;
     margin-top: 30px;
     border-radius: 20px;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 20px 0 var(--color-dark);
 }
 
 .sorry {
