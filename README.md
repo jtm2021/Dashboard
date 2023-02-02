@@ -28,7 +28,7 @@ The colors used in the project is based on dark blue yellow color palette. They 
 
 The icons used in the project were taken from [Material Design Icons](https://materialdesignicons.com/)
 
-Other images were taken from [Pexels](https://www.pexels.com/)
+Other images were taken from [Pexels](https://www.pexels.com/) and [FreePik](https://www.freepik.com/free-vector/set-cute-animal-character_4666142.htm#page=2&query=cartoon%20animals&position=10&from_view=keyword/)
 
 ## Deployment
 

@@ -24,7 +24,7 @@ body {
         "sidebar projects projects projects announcements"
         "sidebar projects projects projects trending"
         "sidebar projects projects projects trending";
-    grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.8fr 1fr 1fr 1fr 0.8fr;
     /* this can adjust the size of each grid */
 }
 
@@ -32,7 +32,7 @@ body {
     grid-area: sidebar;
     background-color: var(--color-blue);
     color: var(--color-white);
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .dashboard {
@@ -49,14 +49,11 @@ body {
 }
 
 .dashboard h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
-.dashboard-menu {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-left: 5px;
+.sidebar p {
+    font-size: 0.8rem;
 }
 
 /* Navigation ---------------------------- */
@@ -92,7 +89,7 @@ li {
     list-style: none;
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 7px 0;
 }
 
 .settings {
@@ -165,7 +162,7 @@ li {
     box-shadow: 0 0 20px 0 var(--color-dark);
 }
 
-/* Announcement styles */
+/* Announcement Structure */
 .announcements {
     display: grid;
     grid-template: 0.1fr 2fr / 1fr;
@@ -183,12 +180,28 @@ li {
     box-shadow: 1px 1px 5px -3px var(--color-gborder);
 }
 
-/* Trending styles */
+/* Announcement Content */
+.announcements>div:last-child {
+    padding: 1.2rem;
+}
+
+.announcements h4 {
+    font-size: 0.7rem;
+    margin: 0 auto;
+}
+
+.announcements p {
+    font-size: 0.6rem;
+    margin: 0 auto;
+}
+
+/* Trending Structure */
 .trending {
     display: grid;
     grid-template: 0.1fr 2fr / 1fr;
     grid-gap: 8px;
     padding: 1rem;
+    align-items: center;
 }
 
 .trending>div:first-child {
@@ -199,4 +212,33 @@ li {
     background-color: var(--color-white);
     border-radius: 8px;
     box-shadow: 1px 1px 5px -3px var(--color-gborder);
+}
+
+/* Trending Icons */
+.user-profiles {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.user-profiles img {
+    width: 40px;
+    height: 40px;
+}
+
+.user-profiles > li {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    gap: 12px;
+}
+
+.user-profiles > li > p {
+    font-size: 0.6rem;
+    width: fit-content;
+}
+
+.icon-user {
+    font-weight: bold;
 }
