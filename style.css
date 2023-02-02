@@ -100,7 +100,7 @@ li {
 /* PROJECTS -------------------------------------------------------------------*/
 .projects {
   grid-area: projects;
-  /* background-color: var(--color-gray); */
+  background-color: var(--color-gray);
 }
 
 /* ANNOUNCEMENTS -------------------------------------------------------------------*/
@@ -142,7 +142,7 @@ li {
 /* Oluwagbemi styles */
 .grid-item1 {
   display: grid;
-  grid-template-columns: 400px 400px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
   width: 100%;
@@ -159,11 +159,10 @@ li {
 
 .grid-item1 > div > div {
   background-color: white;
-  text-align: center;
   padding: 20px 0;
   height: 150px;
-  width: 390px;
-  margin-left: 10px;
+  width: 350px;
+  /* margin-left: 10px; */
   /* padding-bottom: 20px; */
   /* padding-top: 20px; */
 }
