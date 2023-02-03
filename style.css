@@ -141,7 +141,6 @@ li {
   align-items: center;
 }
 
-/******************RESPONSIVE***********************/
 .projects {
   display: grid;
   grid-template: 2.8rem auto / 1fr;
@@ -188,6 +187,7 @@ li {
 
 .white-box p {
   grid-area: content;
+  font-size: 0.9rem;
 }
 
 .white-box h5, .white-box p {
@@ -281,4 +281,72 @@ li {
 .icon-user {
   font-size: 12px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    height: 100vh;
+  }
+
+  .grid-container {
+    grid-template-areas:
+      "sidebar header"
+      "sidebar announcements"
+      "sidebar announcements"
+      "sidebar trending"
+      "sidebar projects";
+    grid-template-columns: 4rem 23rem;
+  }
+
+  .sidebar h1, .sidebar p {
+    display: none;
+  }
+
+  .project-boxes {
+    display: grid;
+    /* grid-area: boxes; */
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-gap: 15px;
+    margin: 0 1.1rem 1.3rem 1rem;
+  }
+
+  /* .projects {
+    display: none
+  } */
+/* 
+  .header {
+    padding: 15px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .header > div {
+    width: 100%;
+    padding: 0.5rem;;
+  }  
+
+  .profile_img_lg {
+    width: 20%;
+    height: auto;
+    margin-right: 1.0em; 
+  }
+  .notification {
+    width: 22px;
+    margin: 0;
+  }
+  .head-area-top-right {
+    justify-content: flex-start;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+
+  .head-area-top-right{
+    display: none;
+  }
+
+  .grettins-user {
+    font-size: 1rem;
+    font-weight: 600;
+  } */
+
 }
