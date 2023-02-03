@@ -212,28 +212,27 @@ li {
   padding: 1rem;
 }
 
-.announcements > div:first-child {
-  height: fit-content;
-}
-
 .announcements > div:last-child {
   background-color: var(--color-white);
   border-radius: 8px;
   box-shadow: 1px 1px 5px -3px var(--color-gborder);
+  padding: 1.8rem;
 }
 
 /* Announcement Content */
-.announcements > div:last-child {
-  padding: 1.2rem;
-}
-
 .announcements h4 {
-  font-size: 0.7rem;
-  margin: 0 auto;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-left: 0.2rem;
 }
 
+.announcements h5 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+  
 .announcements p {
-  font-size: 0.6rem;
+  font-size: 12px;
   margin: 0 auto;
 }
 
