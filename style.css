@@ -154,7 +154,7 @@ li {
 .project-grid > div {
   background-color: #ffc000;
   border-radius: 10px 10px 10px 10px;
-  gap: 10px;
+  gap: 0.6rem;
 }
 
 .project-grid > div > div {
@@ -169,14 +169,14 @@ li {
 .project-grid > div > div > h5 {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bolder;
 }
 
 .project-grid > div > div > p {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #555555;
 }
 
