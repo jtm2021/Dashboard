@@ -143,12 +143,20 @@ li {
 
 /* Olu styles */
 
+.projects > h4 {
+  margin: 5px;
+  /* padding: 0; */
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 10px 10px 5px 20px;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 20px;
-  padding: 20px;
+  padding: 0px 0px 0px 20px;
 }
 
 .project-grid > div {
