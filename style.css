@@ -155,12 +155,50 @@ li {
     gap: 10px;
 }
 
-.project-grid>div>div {
-    background-color: #fff;
-    padding: 20px;
-    margin-left: 5px;
-    height: 100px;
-    box-shadow: 0 0 20px 0 var(--color-dark);
+.project-grid > div > div {
+  background-color: #fff;
+  padding: 20px;
+  margin-left: 5px;
+  height: 135px;
+  box-shadow: 0 0 20px 0 var(--color-dark);
+}
+
+.project-grid > div > div > h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.project-grid > div > div > p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #555555;
+}
+
+.project-grid > div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.share {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}
+
+.eye {
+  position: absolute;
+  right: 60px;
+  bottom: 15px;
+}
+
+.star {
+  position: absolute;
+  right: 100px;
+  bottom: 15px;
 }
 
 /* Announcement Structure */
@@ -244,3 +282,4 @@ li {
 .icon-user {
     font-weight: bold;
 }
+
