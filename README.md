@@ -3,8 +3,6 @@ An assignment to showcase knowledge on using CSS Grid. It is part of Brainnest A
 
 The live site can be found [here](https://jtm2021.github.io/Dashboard/).
 
-The source code can be  found [here](https://github.com/jtm2021/Dashboard/).
-
 ## Wireframe
 The wireframe for the project was made using [Figma](https://www.figma.com/).
 <details><summary>Click To See Wireframe</summary>
@@ -18,7 +16,7 @@ The wireframe for the project was made using [Figma](https://www.figma.com/).
 
 
 ## Typography
-
+The project used fron Inder from [Google Fonts](https://fonts.google.com/).
 
 ## Color Scheme
 
@@ -30,7 +28,9 @@ The colors used in the project is based on dark blue yellow color palette. They 
 
 The icons used in the project were taken from [Material Design Icons](https://materialdesignicons.com/)
 
-Other images were taken from [Pexels](https://www.pexels.com/)
+Other images were taken from [Pexels](https://www.pexels.com/) and [FreePik](https://www.freepik.com/free-vector/set-cute-animal-character_4666142.htm#page=2&query=cartoon%20animals&position=10&from_view=keyword/)
+and [GoogleDrive](https://drive.google.com/file/d/1_AAmXHzHeAPmHTjZoFOdDt2UMkQysdAM/view?usp=sharing)
+
 
 ## Deployment
 
