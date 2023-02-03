@@ -19,32 +19,33 @@ img {
   border-radius: 50px;  
 }
 .header {
-  font-family: 'Inder', 'Verdana' ;
+  font-family: 'Inder', 'Verdana';
   grid-area: header;
   display: flex;
   flex-wrap: wrap;
   background-color: var(--white);
-  border-bottom: 2px #888888 solid ;
-  padding-bottom: 5px 5px;
-  padding: .5em .5em;
+  border-bottom: 2px #888888 solid;
+  padding: 1.2rem;
 }
 .head-area-top-left {
   display: flex;
-  width: 60%;
+  width: 50%;
   align-items: center;
   justify-content: space-around;
-  /* height: 50%; */
 }
+
 .head-area-top-right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   width: 40%;
-  /* height: 50%; */
+  flex: auto;
+  margin-right: 1rem;
 }
+
 .head-area-bottom-left {
   display: flex;
-  width: 60%;
+  width: 50%;
   align-items: center;
 }
 .notification {
@@ -57,12 +58,11 @@ img {
 }
 .head-area-bottom-right {
   display: flex;
-  width: 40%;
+  width: 50%;
   align-items: center;
-  justify-content: space-between;
-  align-content: center;
-  /* height: 50%; */
+  justify-content: flex-end;
 }
+
 .profile_name_sm { 
   font-size: 5hw;
   font-weight: 600;
@@ -86,12 +86,13 @@ img + div {
   font-size: 14px;
 }
 .grettins-user {
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 
 @media screen and (max-width: 800px) {
-
   .header {
     padding: 15px;
     flex-direction: column;
@@ -125,6 +126,4 @@ img + div {
     font-size: 1rem;
     font-weight: 600;
   }
-
-
 }
