@@ -220,7 +220,7 @@ li {
 }
 
 /* Announcement Content */
-.announcements h4 {
+.announcements h4, .trending h4 {
   margin-block-start: 0px;
   margin-block-end: 0px;
   margin-left: 0.2rem;
@@ -243,10 +243,6 @@ li {
   grid-gap: 8px;
   padding: 1rem;
   align-items: center;
-}
-
-.trending > div:first-child {
-  height: fit-content;
 }
 
 .trending > div:last-child {
@@ -272,15 +268,17 @@ li {
   /* display: flex; */
   flex-direction: row;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 1.8rem;
   gap: 12px;
+  margin: 0;
 }
 
 .user-profiles > li > p {
-  font-size: 0.6rem;
+  font-size: 12px;
   width: fit-content;
 }
 
 .icon-user {
+  font-size: 12px;
   font-weight: bold;
 }
