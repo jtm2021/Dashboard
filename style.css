@@ -369,6 +369,7 @@ li {
 
   .header {
     position: sticky;
+    background-color: white;
     top: 0;
 }
 
