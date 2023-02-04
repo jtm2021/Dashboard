@@ -342,14 +342,26 @@ li {
 
 @media screen and (max-width: 600px) {
   .grid-container {
+    display:grid;
     grid-template-areas:
         "sidebar header"
         "sidebar announcements"
         "sidebar announcements"
         "sidebar trending"
         "sidebar projects";
-      grid-template-columns: 4rem 100vw;
+    grid-template-columns: 4rem 100vw;
+    grid-template-rows: repeat(5, 1fr);
     }
+
+  .sidebar div {
+    position: sticky;
+    top: 2rem;
+  } 
+  
+  .sidebar nav {
+    position: sticky;
+    top: 5rem;
+  }
 
   .sidebar h1, .sidebar p {
     display: none;
