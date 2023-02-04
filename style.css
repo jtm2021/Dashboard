@@ -338,6 +338,16 @@ li {
     font-size: 1rem;
     font-weight: 600;
   }
+
+  .sidebar div {
+    position: sticky;
+    top: 2rem;
+  } 
+  
+  .sidebar nav {
+    position: sticky;
+    top: 5rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -351,16 +361,6 @@ li {
         "sidebar projects";
     grid-template-columns: 4rem 100vw;
     }
-
-  .sidebar div {
-    position: sticky;
-    top: 2rem;
-  } 
-  
-  .sidebar nav {
-    position: sticky;
-    top: 5rem;
-  }
 
   .sidebar h1, .sidebar p {
     display: none;
