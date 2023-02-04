@@ -177,7 +177,7 @@ li {
 
 .white-box {
   display: grid;
-  grid-template: 2rem 6.5rem auto/ 1fr;
+  grid-template: 2rem auto 4rem/ 1fr;
   grid-template-areas: "header" "content" "icons";
 } 
 
@@ -283,38 +283,28 @@ li {
   font-weight: bold;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   body {
     height: 100vh;
   }
 
   .grid-container {
-    grid-template-areas:
-      "sidebar header"
-      "sidebar announcements"
-      "sidebar announcements"
-      "sidebar trending"
-      "sidebar projects";
-    grid-template-columns: 4rem 23rem;
-  }
-
-  .sidebar h1, .sidebar p {
-    display: none;
+  grid-template-areas:
+      "sidebar header header"
+      "sidebar projects projects"
+      "sidebar projects projects"
+      "sidebar announcements trending";
+    grid-template-columns: 12rem 1fr 1fr;
   }
 
   .project-boxes {
     display: grid;
-    /* grid-area: boxes; */
-    grid-template-columns: 1fr;
-    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
     margin: 0 1.1rem 1.3rem 1rem;
   }
 
-  /* .projects {
-    display: none
-  } */
-/* 
+  
   .header {
     padding: 15px;
     flex-direction: column;
@@ -347,6 +337,28 @@ li {
   .grettins-user {
     font-size: 1rem;
     font-weight: 600;
-  } */
+  }
+}
 
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-areas:
+        "sidebar header"
+        "sidebar announcements"
+        "sidebar announcements"
+        "sidebar trending"
+        "sidebar projects";
+      grid-template-columns: 4rem 100vw;
+    }
+
+  .sidebar h1, .sidebar p {
+    display: none;
+  }
+
+  .project-boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    margin: 0 1.1rem 1.3rem 1rem;
+  }
 }
