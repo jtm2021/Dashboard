@@ -372,10 +372,4 @@ li {
     grid-gap: 15px;
     margin: 0 1.1rem 1.3rem 1rem;
   }
-
-  .header {
-    position: sticky;
-    background-color: white;
-    top: 0;
-  }
 }
