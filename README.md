@@ -2,7 +2,8 @@
 An assignment to showcase knowledge on using CSS Grid. It is part of Brainnest Advanced Front-End Training Program.
 ![Mockup Screenshot](./assets/readme-images/mockup.png)
 
-The live site can be found [here](https://jtm2021.github.io/Dashboard/).
+- The live site can be found [here](https://jtm2021.github.io/Dashboard/).
+- The source code can be found [here](https://github.com/jtm2021/Dashboard).
 
 ## Wireframe
 The wireframe for the project was made using [Figma](https://www.figma.com/).
