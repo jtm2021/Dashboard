@@ -1,5 +1,6 @@
 # Dashboard
 An assignment to showcase knowledge on using CSS Grid. It is part of Brainnest Advanced Front-End Training Program.
+![Mockup Screenshot](./assets/readme-images/mockup.png)
 
 The live site can be found [here](https://jtm2021.github.io/Dashboard/).
 
@@ -16,7 +17,8 @@ The wireframe for the project was made using [Figma](https://www.figma.com/).
 
 
 ## Typography
-The project used fron Inder from [Google Fonts](https://fonts.google.com/).
+
+The project used Inder font from [Google Fonts](https://fonts.google.com/).
 
 ## Color Scheme
 
@@ -28,11 +30,8 @@ The colors used in the project is based on dark blue yellow color palette. They 
 
 The icons used in the project were taken from [Material Design Icons](https://materialdesignicons.com/)
 
-Other images were taken from [Pexels](https://www.pexels.com/) and [FreePik](https://www.freepik.com/free-vector/set-cute-animal-character_4666142.htm#page=2&query=cartoon%20animals&position=10&from_view=keyword/)
-and [GoogleDrive](https://drive.google.com/file/d/1_AAmXHzHeAPmHTjZoFOdDt2UMkQysdAM/view?usp=sharing)
+Other images were taken from [Pexels](https://www.pexels.com/), [FreePik](https://www.freepik.com/free-vector/set-cute-animal-character_4666142.htm#page=2&query=cartoon%20animals&position=10&from_view=keyword/) and and [GoogleDrive](https://drive.google.com/file/d/1_AAmXHzHeAPmHTjZoFOdDt2UMkQysdAM/view?usp=sharing)
 
-
-## Deployment
 
 ## Contributors
 

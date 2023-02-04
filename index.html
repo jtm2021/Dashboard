@@ -1,108 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./assets/extra-images/favicon.ico" type="image/x-icon">
-    <title>Dashboard</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="shortcut icon" href="./assets/extra-images/favicon.ico" type="image/x-icon" />
+  <title>Dashboard</title>
 </head>
+
 <body class="grid-container">
-    <div class="grid-item sidebar">
-        <div class="dashboard">
-            <img src="./assets/icons/sidebar-icons/view-dashboard.svg" alt="Dashboard icon.">
-            <h1>Dashboard</h1>
-        </div>
-        <nav>
-            <li>
-                <a href="">
-                    <img src="./assets/icons/sidebar-icons/home.svg" alt="Home icon.">
-                    <p>Home</p>
-                </a>
-            </li>
-            <li>
-                <a href="./pages/landing.html">
-                    <img src="./assets/icons/sidebar-icons/profile.svg" alt="Profile icon.">
-                    <p>Profile</p>
-                </a>
-            </li>
-            <li>
-                <a href="./pages/landing.html">
-                    <img src="./assets/icons/sidebar-icons/message.svg" alt="Messages icon.">
-                    <p>Messages</p>
-                </a>
-            </li>
-            <li>
-                <a href="./pages/landing.html">
-                    <img src="./assets/icons/sidebar-icons/history.svg" alt="History icon.">
-                    <p>History</p>
-                </a>
-            </li>
-            <li>
-                <a href="./pages/landing.html">
-                    <img src="./assets/icons/sidebar-icons/tasks.svg" alt="Tasks icon.">
-                    <p>Tasks</p>
-                </a>
-            </li>
-            <li>
-                <a href="./pages/landing.html">
-                    <img src="./assets/icons/sidebar-icons/communities.svg" alt="Communities icon.">
-                    <p>Communities</p>
-                </a>
-            </li>
-            <li class="settings">
-                <a href="./pages/landing.html">
-                    <img src="./assets/icons/sidebar-icons/settings.svg" alt="Settings icon.">
-                    <p>Settings</p>
-                </a>
-            </li>
-            <li>
-                <a href="./pages/landing.html">
-                    <img src="./assets/icons/sidebar-icons/support.svg" alt="Support icon.">
-                    <p>Support</p>
-                </a>
-            </li>
-            <li>
-                <a href="./pages/landing.html">
-                    <img src="./assets/icons/sidebar-icons/privacy.svg" alt="Privacy icon.">
-                    <p>Privacy</p>
-                </a>
-            </li>
-        </nav>
+  <section class="sidebar">
+    <div class="dashboard">
+      <img src="./assets/icons/sidebar-icons/view-dashboard.svg" alt="Dashboard icon." />
+      <h1>Dashboard</h1>
     </div>
-    <section class="header">
-      <div class="head-area-top-left">
-        <img width="25px" src="./assets/icons/header-icons/magnifying.svg" >
-        <input type="text"/>
+    <nav>
+      <li>
+        <a href="">
+          <img src="./assets/icons/sidebar-icons/home.svg" alt="Home icon." />
+          <p>Home</p>
+        </a>
+      </li>
+      <li>
+        <a href="./pages/landing.html">
+          <img src="./assets/icons/sidebar-icons/profile.svg" alt="Profile icon." />
+          <p>Profile</p>
+        </a>
+      </li>
+      <li>
+        <a href="./pages/landing.html">
+          <img src="./assets/icons/sidebar-icons/message.svg" alt="Messages icon." />
+          <p>Messages</p>
+        </a>
+      </li>
+      <li>
+        <a href="./pages/landing.html">
+          <img src="./assets/icons/sidebar-icons/history.svg" alt="History icon." />
+          <p>History</p>
+        </a>
+      </li>
+      <li>
+        <a href="./pages/landing.html">
+          <img src="./assets/icons/sidebar-icons/tasks.svg" alt="Tasks icon." />
+          <p>Tasks</p>
+        </a>
+      </li>
+      <li>
+        <a href="./pages/landing.html">
+          <img src="./assets/icons/sidebar-icons/communities.svg" alt="Communities icon." />
+          <p>Communities</p>
+        </a>
+      </li>
+      <li class="settings">
+        <a href="./pages/landing.html">
+          <img src="./assets/icons/sidebar-icons/settings.svg" alt="Settings icon." />
+          <p>Settings</p>
+        </a>
+      </li>
+      <li>
+        <a href="./pages/landing.html">
+          <img src="./assets/icons/sidebar-icons/support.svg" alt="Support icon." />
+          <p>Support</p>
+        </a>
+      </li>
+      <li>
+        <a href="./pages/landing.html">
+          <img src="./assets/icons/sidebar-icons/privacy.svg" alt="Privacy icon." />
+          <p>Privacy</p>
+        </a>
+      </li>
+    </nav>
+  </section>
+  <section class="header">
+    <div class="head-area-top-left">
+      <img width="25px" src="./assets/icons/header-icons/magnifying.svg" />
+      <input type="text" />
+    </div>
+
+    <div class="head-area-top-right">
+      <img class="notification" src="./assets/icons/header-icons/notification-bell.svg" />
+      <img class="profile_img_sm" src="./assets/extra-images/userprofile.png" />
+      <span class="profile_name_sm"> Pablito cat </span>
+    </div>
+
+    <div class="head-area-bottom-left">
+      <img class="profile_img_lg" src="./assets/extra-images/userprofile.png" />
+
+      <div class="messages">
+        <span class="grettins-msg">Hi there,</span>
+        <span class="grettins-user">Pablito cat (@thepablitocat)</span>
       </div>
+    </div>
 
-      <div class="head-area-top-right">
-        <img class="notification" src="./assets/icons/header-icons/notification-bell.svg" >
-        <img class="profile_img_sm" src="./assets/extra-images/userprofile.png" >
-        <span class="profile_name_sm"> Pablito cat </span>
-      </div>
-
-      <div class="head-area-bottom-left">
-        <img class="profile_img_lg" src="./assets/extra-images/userprofile.png" >
-
-        <div class="messages">
-          <span class="grettins-msg">Hi there,</span>
-          <span class="grettins-user">Pablito cat (@thepablitocat)</span>
+    <div class="head-area-bottom-right">
+      <button>New</button>
+      <button>Upload</button>
+      <button>Share</button>
+    </div>
+  </section>
+  <section class="projects">
+    <h4>Your Projects</h4>
+    <div class="project-boxes">
+      <div class="colored-border">
+        <div class="white-box">
+          <h5>Super Cool Project</h5>
+          <p>
+            Be amazed by this super cool project. Invented by the best minds of the 21st century.
+          </p>
+          <div class="project-icons">
+            <img class="star" width="25px" src="./assets/icons/project-icons/star-plus-outline.svg" />
+            <img class="eye" width="25px" src="./assets/icons/project-icons/eye-plus-outline.svg" />
+            <img class="share" width="25px" src="./assets/icons/project-icons/vector-polyline.svg" />
+          </div>
         </div>
-      </div>  
-
-      <div class="head-area-bottom-right">
-          <button>New</button>
-          <button>Upload</button>
-          <button>Share</button>
       </div>
-    </section>
-    <div class="grid-item projects">Your Projects</div>
-    <div class="grid-item announcements">Announcements</div>
-    <div class="grid-item trending">Trending</div>
+      <div class="colored-border">
+        <div class="white-box">
+          <h5>Less Cool Project</h5>
+          <p>
+            This project is not as cool as the previous one, but it's still pretty cool. You should check it out. More details are coming soon.
+          </p>
+          <div class="project-icons">
+            <img class="star" width="25px" src="./assets/icons/project-icons/star-plus-outline.svg" />
+            <img class="eye" width="25px" src="./assets/icons/project-icons/eye-plus-outline.svg" />
+            <img class="share" width="25px" src="./assets/icons/project-icons/vector-polyline.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="colored-border">
+        <div class="white-box">
+          <h5>Impossible App</h5>
+          <p>
+            This app is impossible to build. It's so impossible that it's not even possible to build it. It's impossible! Impossible! Impossible!
+          </p>
+          <div class="project-icons">
+            <img class="star" width="25px" src="./assets/icons/project-icons/star-plus-outline.svg" />
+            <img class="eye" width="25px" src="./assets/icons/project-icons/eye-plus-outline.svg" />
+            <img class="share" width="25px" src="./assets/icons/project-icons/vector-polyline.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="colored-border">
+        <div class="white-box">
+          <h5>Easy Peasy App</h5>
+          <p>
+            This app is so easy to build that it's not even possible to build without prior knowledge. It's easy! Easy! Easy!
+          </p>
+          <div class="project-icons">
+            <img class="star" width="25px" src="./assets/icons/project-icons/star-plus-outline.svg" />
+            <img class="eye" width="25px" src="./assets/icons/project-icons/eye-plus-outline.svg" />
+            <img class="share" width="25px" src="./assets/icons/project-icons/vector-polyline.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="colored-border">
+        <div class="white-box">
+          <h5>Ad Blocker</h5>
+          <p>
+            Our ad blocker is the best ad blocker in the world. It blocks all ads. It's so good, you will be amazed. It's the best ad blocker ever.
+          </p>
+          <div class="project-icons">
+            <img class="star" width="25px" src="./assets/icons/project-icons/star-plus-outline.svg" />
+            <img class="eye" width="25px" src="./assets/icons/project-icons/eye-plus-outline.svg" />
+            <img class="share" width="25px" src="./assets/icons/project-icons/vector-polyline.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="colored-border">
+        <div class="white-box">
+          <h5>Money Maker</h5>
+          <p>
+            Amazingly, this project will make you money. It is so good, you will be amazed. Making money has never been so easy. Never before has there been a project that makes money. This project is the best project ever.
+          </p>
+          <div class="project-icons">
+            <img class="star" width="25px" src="./assets/icons/project-icons/star-plus-outline.svg" />
+            <img class="eye" width="25px" src="./assets/icons/project-icons/eye-plus-outline.svg" />
+            <img class="share" width="25px" src="./assets/icons/project-icons/vector-polyline.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="announcements">
+    <h4>Announcements</h4>
+    <div>
+      <h5>Site Maintenance</h5>
+      <p>
+        Site maintenance will be taking place on Saturday, 11/02/2023. The site will be down for 2 hours starting at 9:00.
+      </p>
+      <hr />
+      <h5>Community Share Day</h5>
+      <p>
+        Join us on 12/02/2023 for our Community Share Day. We will be sharing ideas with each other.
+      </p>
+      <hr />
+      <h5>Updated Privacy Policy</h5>
+      <p>
+        Please review our updated privacy policy. We have updated our privacy policy to be more clear and concise.
+      </p>
+    </div>
+  </section>
+  <section class="trending">
+    <h4>Trending</h4>
+    <div class="user-profiles">
+      <li>
+        <img src="./assets/icons/content-icons/dog-icon.png" alt="User profile icon." />
+        <p><span class="icon-user">@Smartie</span><br />Best Dog Ever</p>
+      </li>
+      <li>
+        <img src="./assets/icons/content-icons/duckling-icon.png" alt="User profile icon." />
+        <p><span class="icon-user">@Pretty_gal</span><br />Friendly pet</p>
+      </li>
+      <li>
+        <img src="./assets/icons/content-icons/monkey-icon.png" alt="User profile icon." />
+        <p><span class="icon-user">@Bruno</span><br />Smart pal</p>
+      </li>
+      <li>
+        <img src="./assets/icons/content-icons/porcupine-icon.png" alt="User profile icon." />
+        <p><span class="icon-user">@Dina</span><br />Eenie meenie</p>
+      </li>
+    </div>
+  </section>
 </body>
+
 </html>
