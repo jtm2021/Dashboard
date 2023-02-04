@@ -350,7 +350,6 @@ li {
         "sidebar trending"
         "sidebar projects";
     grid-template-columns: 4rem 100vw;
-    grid-template-rows: repeat(5, 1fr);
     }
 
   .sidebar div {
