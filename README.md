@@ -17,6 +17,7 @@ The wireframe for the project was made using [Figma](https://www.figma.com/).
 
 
 ## Typography
+
 The project used Inder font from [Google Fonts](https://fonts.google.com/).
 
 ## Color Scheme
