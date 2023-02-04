@@ -367,6 +367,11 @@ li {
     display: none;
   }
 
+  .header {
+    position: sticky;
+    top: 0;
+}
+
   .project-boxes {
     display: grid;
     grid-template-columns: 1fr;
